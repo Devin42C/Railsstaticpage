@@ -1,0 +1,47 @@
+@import "bootstrap";
+
+.clear {
+  clear: both;
+}
+
+.definition {
+  width: 620px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -270px;       
+  margin-top: -50px;      
+};
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 21px;
+  letter-spacing: 2px;
+  colour: red;
+  word-spacing: 2px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  border: 11px solid rgba(164,0,0,0.67);
+
+}
+.image {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-left: -100px;       
+  margin-top: -50px; ;
+}
+
+.tracklist {
+  position: fixed;
+  top: 62%;
+  left: 60%;
+  margin-left: -270px;       
+  margin-top: -20px;
+}

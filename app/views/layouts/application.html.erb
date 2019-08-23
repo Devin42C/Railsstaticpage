@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RAM</title>
-    <p>RAM (pronounced ramm) is an acronym for random access memory, a type of computer memory that can be accessed randomly; that is, any byte of memory can be accessed without touching the preceding bytes. RAM is found in servers, PCs, tablets, smartphones and other devices, such as printers.</p>
+    <title>Rails Static Page</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+
+    <h1> RAM </h1>
+    <header class="row">
+      
+      <div class="definition">
+        RAM (pronounced ramm) is an acronym for random access memory, a type of computer memory that can be accessed randomly; that is, any byte of memory can be accessed without touching the preceding bytes. RAM is found in servers, PCs, tablets, smartphones and other devices, such as printers.
+      </div>
+      <div class= "image">
+        <img src= "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Random_Access_Memories.jpg/220px-Random_Access_Memories.jpg" style="width:200px;height:200px;">
+      </div>
+
+      <div class="tracklist">
+        <b>Daft Punk</b>
+        <br>
+        1. Give Life Back to Music
+        <br>
+        2. The Game of Love
+        <br>
+        3. Giorgio By Moroder feat. Giorgio Moroder
+        <br>
+        4. Within
+        <br>
+        5. Instant Crush feat. Julian Casablancas
+        <br>
+        6. Lose Yourself to Dance feat. Pharrell Williams
+        <br>
+        7. Touch feat. Paul Williams
+        <br>
+        8. Get Lucky feat. Nile Rodgers & Pharrell Williams
+        <br>
+        9. Beyond
+        <br>
+        10. Motherboard
+        <br>
+        11. Fragments of Time feat. Todd Edwards
+        <br>
+        12. Doin' It Right feat. Panda Bear
+        <br>
+        13. Contact
+      </div>
+    </header>
+
+    <br class="clear" />
+
+   <%= yield %>
+
   </body>
 </html>
